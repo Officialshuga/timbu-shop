@@ -1,0 +1,109 @@
+/* .cartitems-format-main{
+    display: grid;
+    grid-template-columns: 5.5fr 3fr 1fr 3fr 1fr 1.5fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    font-size: 600;
+} */
+/* .cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+} */
+
+  {/* <div className='cartitems-format-main'>
+            <p>PRODUCT</p>
+            <p>TITLE</p>
+            <p>QUANTITY</p>
+            <p>PRICE</p>
+            <p>TOTAL</p>
+        </div> */}
+
+
+         {/* <table className="customers"> */}
+              {/* <tr>
+                <th>Product Details</th>
+                <th>Title</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+              </tr> */}
+
+
+
+               {/* <ul>
+           <li key={item.id}>
+                <div className='cartitems-format cartitems-format-main'>
+                    <img src={item.image} alt={item.name} width="50" className='carticon-product-icon'/>
+                    <p><span>{item.name}</span></p>
+                    <button>{item.quantity}</button>
+                    <span>${item.newPrice}</span>
+                    <span>${item.newPrice * item.quantity}</span>
+                    <button onClick={() => removeFromCart(item.id)}>Remove</button>
+                </div>
+                <hr/>
+            </li>
+           </ul> */}
+
+
+
+
+
+           /* 
+@media only screen and (max-width: 400px) {
+    .two-content {
+        flex-direction: column;
+    }
+
+    .cartitems, .summary-page {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .customers td, .customers th {
+        display: block;
+        text-align: right;
+    }
+
+    .customers th {
+        text-align: right;
+    }
+
+    .customers td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+
+    .carticon-product-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    #selected-delivery, #promo-code {
+        width: 100%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+Classic Comfort Sneakers
+
+Step into ultimate comfort and style with our Classic Comfort Sneakers. Perfect for everyday wear, these sneakers combine timeless design with modern functionality. Crafted from high-quality materials, they offer durability and breathability, ensuring your feet stay fresh all day long.
+
+Features:
+
+Premium Materials: Made with a blend of leather and breathable mesh, these sneakers provide a perfect balance of comfort and durability.
+Cushioned Insole: Enjoy superior comfort with our cushioned insole, designed to support your feet with every step.
+Non-Slip Sole: The rubber outsole is designed for excellent traction, ensuring stability and grip on various surfaces.
+Stylish Design: With a sleek silhouette and versatile color options, these sneakers are perfect for casual outings, gym sessions, or even a day at the office.
+Easy Maintenance: The materials used make these shoes easy to clean and maintain, keeping them looking new for longer.
+Whether you're running errands, heading to the gym, or just hanging out with friends, the Classic Comfort Sneakers are your go-to choice for effortless style and unparalleled comfort. Get ready to elevate your footwear game with these must-have sneakers!

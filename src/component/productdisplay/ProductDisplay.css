@@ -1,0 +1,27 @@
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.first-part img{
+    width: 200px;
+    height: 200px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 700;
+}
+.sec-part{
+    padding: 20px;
+}
+.details button{
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

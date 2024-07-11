@@ -1,0 +1,360 @@
+/* Base Styles */
+.card-container {
+    flex: 1 1 calc(25% - 40px); /* Subtract the gap size to fit 4 cards in a row */
+    box-sizing: border-box;
+    margin: 10px; /* Optional: Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    border: none; /* Adjust border as needed */
+    text-align: center; /* Center the content inside each card */
+    box-shadow: #F83ECF;
+}
+.card-container h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.card-container p {
+    font-size: 20px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    padding: 20px; /* Adjust padding as needed */
+}
+.btn button {
+    background-color: #FF8D24;
+    height: 55px;
+    width: 130px;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+}
+select {
+    width: 40px;
+    height: 31px;
+    margin-right: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(to right, #FF8D24, #F83ECF);
+    color: white;
+    padding: 50px;
+}
+.first {
+    font-size: 10rem;
+}
+.briefcase {
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.brief, .person {
+    border-right: 3px solid red;
+    padding-right: 30px;
+}
+#bc {
+    font-size: 40px;
+}
+address {
+    font-size: 25px;
+    width: 360px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 35%;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hero-sec-one {
+    width: 550px;
+}
+.hero-sec-one h5 {
+    font-size: 24px;
+}
+.hero-sec-one h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+#pic {
+    position: relative;
+    width: 590px;
+    height: 480px;
+    border-radius: 50%;
+}
+#product-heading {
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .hero{
+        flex-direction: column;
+    }
+    address{
+        padding-left: 25%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        flex: 1 1 calc(50% - 20px); /* Adjust to fit 2 cards in a row */
+        margin: 10px;
+    }
+    .hero-sec-one {
+        width: 100%;
+    }
+    .hero-sec-one h2 {
+        font-size: 40px;
+    }
+    .hero-sec-one h5 {
+        font-size: 20px;
+    }
+    #pic {
+        width: 100%;
+        height: auto;
+    }
+    .btn button {
+        height: 45px;
+        width: 110px;
+        font-size: 18px;
+    }
+    select {
+        width: 30px;
+        height: 25px;
+    }
+    footer {
+        padding: 30px;
+    }
+    .first {
+        font-size: 8rem;
+    }
+    .briefcase {
+        font-size: 18px;
+        gap: 20px;
+    }
+    #bc {
+        font-size: 30px;
+    }
+    address {
+        font-size: 20px;
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+/* Media Queries for max-width 400px */
+@media (max-width: 400px) {
+    #pic{
+        width: 250px;
+        height: 240px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .card-container {
+        flex: 1 1 100%; /* Stack cards vertically */
+        margin: 5px;
+        padding: 10px;
+    }
+    .hero-sec-one h2 {
+        font-size: 30px;
+    }
+    .hero-sec-one h5 {
+        font-size: 16px;
+    }
+    .btn button {
+        height: 40px;
+        width: 100px;
+        font-size: 16px;
+    }
+    select {
+        width: 45px;
+        height: 20px;
+    }
+    footer {
+        padding: 20px;
+    }
+    .first {
+        font-size: 6rem;
+    }
+    .briefcase {
+        font-size: 16px;
+        gap: 10px;
+    }
+    #bc {
+        font-size: 25px;
+    }
+    address {
+        font-size: 18px;
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card-container{
+    flex: 1 1 calc(25% - 40px); 
+    box-sizing: border-box;
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    border: none; 
+    text-align: center; 
+    box-shadow: #F83ECF;
+}
+.card-container h3{
+    font-size: 23px;
+    font-weight: 600;
+}
+.card-container p{
+    font-size: 20px;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px; 
+}
+.btn button{
+    background-color: #FF8D24;
+    height: 55px;
+    width: 130px;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+}
+select{
+    width: 40px;
+    height: 31px;
+    margin-right: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(to right, #FF8D24, #F83ECF);
+    color: white;
+    padding: 50px;
+}
+.first{
+    font-size: 10rem;
+}
+.briefcase{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.brief, .person{
+    border-right: 3px solid red;
+    padding-right: 30px;
+}
+#bc{
+    font-size: 40px;
+}
+address{
+    font-size: 25px;
+    width: 360px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 35%;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hero-sec-one{
+    width: 550px;
+}
+.hero-sec-one h5{
+    font-size: 24px;
+}
+.hero-sec-one h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+#pic{
+    position: relative;
+    width: 590px;
+    height: 480px;
+    border-radius: 50%;
+}
+#product-heading{
+    text-align: center;
+}
+@media (max-width: 400px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero-sec-one{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 600px){
+    
+    .hero-sec-one{
+        width: 205px;
+    }
+    .hero-sec-one h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .hero-sec-one h5{
+        font-size: 15px;
+        width: 270px;
+    }
+    #pic{
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+    }
+    address{
+        font-size: 20px;
+        width: 360px;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 15%;
+    }
+} */
