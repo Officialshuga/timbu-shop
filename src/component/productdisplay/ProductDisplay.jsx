@@ -27,7 +27,7 @@ const ProductDisplay = () => {
               <div className='details'>
                 <h2> {productDetails.name} </h2>
                 <p>${productDetails.newPrice}.00</p>
-                <button onClick={() =>{alert(`Add to cart??`); addToCart(productDetails)}}>Add to Cart</button>
+                {/* <button onClick={() =>{alert(`Add to cart??`); addToCart(productDetails)}}>Add to Cart</button> */}
               </div>
          </div>
 
